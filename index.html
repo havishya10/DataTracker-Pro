@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>DataTrack Pror</title>
+    <link href="css\fontawesome.css" rel="stylesheet" />
+    <link href="css\brands.css" rel="stylesheet" />
+    <link href="css/solid.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+    <div>
+        <div class="d-flex flex-row mb-2 input-field p-1">
+            <label class="mt-1" for="urlInput">URL: </label>
+            <input type="url" id="urlInput" placeholder="Enter URL or Capture Current Tab">
+            <button id="captureUrlBtn" class="ibtn"><i class="fa-solid fa-camera"></i></button>
+        </div>
+    </div>
+    <div>
+        <div class="d-flex flex-row justify-content-between mb-2 input-field p-1">
+            <label class="mt-1" for="nameInput">NAME:</label>
+            <input type="text" id="nameInput" placeholder="Enter Name or Capture Name">
+            <button id="captureNameBtn" class="ibtn"><i class="fa-solid fa-camera"></i></button>
+        </div>
+    </div>
+    <div class="d-flex flex-row justify-content-center mt-3">
+        <div>
+            <button class="custom-button" id="save-btn">
+                <select id="save-el">
+                    <option value="" class="text-dark">SAVE</option>
+                    <option value="save-name" class="text-dark" id="saveName">SAVE BY NAME</option>
+                    <option value="save-url" class="text-dark" id="saveUrl">SAVE BY URL</option>
+                </select>
+            </button>
+            <button class="custom-button" id="remove-btn">
+                <select id="remove-el">
+                    <option value="" class="text-dark">REMOVE</option>
+                    <option value="delete-el" class="text-dark" id="deleteEl">delete</option>
+                    <option value="clear-all" class="text-dark" id="clearAll">clear all</option>
+                </select>
+            </button>
+            <button class="custom-button" id="display-btn">
+                <select id="display-el">
+                    <option value="" class="text-dark">DISPLAY</option>
+                    <option value="saved-entries" class="text-dark" id="savedEntries">saved entries</option>
+                    <option value="deleted-entries" class="text-dark" id="deletedEntries">deleted entries</option>
+                </select>
+            </button>
+        </div>
+    </div>
+    <h6 id="display-head" class="text-center mt-3"></h6>
+    <ul id="entries">
+    </ul>
+    <script src="index.js"></script>
+</body>
+</html>

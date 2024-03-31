@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    padding: 10px;
+    min-width: 400px !important;
+    font-family: "Roboto";
+    /*background-color: #07071d;*/
+    background-color: #f0f7ff;
+    font-size: 14px;
+    color: #07071d;
+    margin: auto;
+
+}
+
+input {
+    width: 100%;
+    margin-bottom: 4px;
+    border: none;
+    padding: 5px;
+    text-align: center;
+    outline: none;
+    /* background-color: #e8e8e8;*/
+    background-color: #c9e1ff;
+
+}
+
+label {
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+input:hover {
+    border: none;
+    outline: none;
+}
+
+input:active {
+    border: none;
+    outline: none;
+}
+
+input:visited {
+    border: none;
+    outline: none;
+}
+
+.input-field {
+    border: 1px solid #DDDDDD;
+    padding-right: 5px;
+    box-sizing: border-box;
+    /* background-color: #e8e8e8; for dark theme*/
+    background-color: #c9e1ff;
+    color: #07071d;
+}
+
+i {
+    background: linear-gradient(to right, #A342B2, #7D3FB3);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 18px;
+}
+
+
+
+.ibtn {
+    margin: 0;
+    border: none;
+    background: none;
+}
+
+#save-btn {
+    background: linear-gradient(to right, #1F7B7E, #008080);
+}
+
+#remove-btn {
+    background: linear-gradient(#BB3C3C, #FF5733);
+}
+
+#display-btn {
+    background: linear-gradient(#5C398E, #672F75);
+}
+
+.custom-button {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+select {
+    text-align: center;
+    background: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    ;
+    width: fit-content;
+    margin: 0;
+    font-size: 12px;
+    outline: none;
+
+}
+ul {
+    padding: 5px;
+}
+
+li {
+    list-style: none;
+    /*color: #64327d;*/
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    margin-bottom: 3px;
+    color: #07071d;
+}
+
+a:hover {
+    color: #A342B2;
+}
+
+.fa-trash-can {
+    display: none;
+}
