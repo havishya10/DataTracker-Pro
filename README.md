@@ -47,9 +47,12 @@ Contributions to DataTrack Pro are welcome! If you have any ideas for improvemen
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments:
+## Credits
 
-- Icons used in the extension are from [Font Awesome](https://fontawesome.com/).
+- Project inspired by Scrimba
+- Built by Havishya
+- Icons from Font Awesome
+
 
 ## Contact:
 
