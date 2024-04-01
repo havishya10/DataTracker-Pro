@@ -27,7 +27,7 @@ DataTrack Pro is a Chrome extension designed to simplify the management and trac
 
 ### From Chrome Web Store:
 
-1. **Visit Chrome Web Store:** Go to the [Chrome Web Store](https://chrome.google.com/webstore/category/extensions) in your Chrome browser.
+1. **Visit Chrome Web Store:** Go to the [Chrome Web Store](https://chrome.google.com/webstore/detail/nfcojooddpnmplfoiejmgnlfhoajjmli?authuser=0&hl=en) in your Chrome browser.
 2. **Search for DataTrack Pro:** Use the search bar to find "DataTrack Pro" or navigate directly to the extension page.
 3. **Add to Chrome:** Click on the "Add to Chrome" button.
 4. **Confirm Installation:** When prompted, confirm the installation by clicking "Add Extension."
