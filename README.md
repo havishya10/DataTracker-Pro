@@ -47,13 +47,6 @@ Contributions to DataTrack Pro are welcome! If you have any ideas for improvemen
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Credits
-
-- Project inspired by Scrimba
-- Built by Havishya
-- Icons from Font Awesome
-
-
 ## Contact:
 
 For any inquiries or support, please contact [Havishya](mailto:havishya995@example.com).
